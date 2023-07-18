@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img{
+    width: 200px;
+    height: 100px;
+}
+
+.nav-item a{
+    color: black;
+    font-weight: bold;
+}
+.navbar-nav .nav-item i{
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item:hover i{
+    color: #fac031;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+#home span.main-head{
+    font-family: mv boli;
+    color: #fac031;
+    font-size: 73px;
+}
+
+#home p{
+    font-weight: 400;
+    text-align: justify;
+    font-style: italic;
+}
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-item,img{
+    width: 100%;
+    height: 100%;
+}
+
+#aboutUs h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#aboutUs p{
+    font-family: mv boli;
+}
+
+#menu h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#menu span{
+    font-family: mv boli;
+    margin-left: 10px;
+    color: #fac031;
+}
+
+.card .img-fluid {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#review h1#review-head{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#review span#review-head-span{
+    font-family: mv boli;
+    margin-left: 10px;
+    color: #fac031;
+}
+
+#review .user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+#review .user-image{
+    width: 80px;
+}
+
+#review .user-content h5{
+    font-family: mv boli;
+    color: #fac031;
+    font-weight: bold;
+}
+
+#review .user-content p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+#review .user-content i.bi-facebook{
+    color: #3b5998;
+
+}
+
+#review .user-content i.bi-instagram{
+    color: #E4405F;
+}
+
+#review .user-content i.bi-twitter{
+    color: #00acee;
+}
+
+.contact-2 a i.bi-facebook{
+    color: #3b5998;
+}
+
+.contact-2 a i.bi-instagram{
+    color: #E4405F;
+}
+
+.contact-2 a i.bi-twitter{
+    color: #00acee;
+}
+
+footer p{
+    font-family: mv boli;
+}
+
+footer h6{
+    color: #800080;
+}
+
+footer .copyright{
+    color: #800080;
+}
